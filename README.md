@@ -28,5 +28,5 @@ This is my home lab project using an old HP laptop running Ubuntu Server 24.04 L
 
 ## 📸 Screenshots
 
-![SSH config](docs/sshd_config.jpeg)
-![DHCP static IP](docs/static-ip.jpeg)
+![Installation](docs/installation.jpeg)
+![Network Setuo](docs/Internet-setup.jpeg)
