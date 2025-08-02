@@ -1,0 +1,15 @@
+## 🌐 Home Lab Remote Access Setup (DDNS + Port Forwarding)
+
+This project documents the setup of a personal homelab server with secure remote access using Dynamic DNS, port forwarding, and firewall configuration.
+
+### ✅ Summary of Completed Steps
+
+- 🔧 Set up a homelab server using Ubuntu for remote management and future self-hosted projects.
+- 🌍 Registered and configured a **No-IP Dynamic DNS (DDNS)** hostname: `mk-2003.ddns.net`.
+- 🛠️ Created a DDNS key and linked it to the Verizon router to auto-update public IP changes.
+- 📡 Configured the Verizon router to **forward external traffic** to internal **SSH port 22** on the homelab.
+- 🧱 Reserved a **static local IP address** for the server to maintain consistent port forwarding.
+- 🔐 Enabled **SSL mode** in the DDNS client for secure credential transmission.
+- 🧪 Verified remote access functionality by SSHing into the server from an external network via mobile hotspot:
+  ```bash
+  ssh -p 22 username@mk-2003.ddns.net
