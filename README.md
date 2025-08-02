@@ -29,4 +29,4 @@ This is my home lab project using an old HP laptop running Ubuntu Server 24.04 L
 ## 📸 Screenshots
 
 ![Installation](docs/installation.jpeg)
-![Network Setuo](docs/Internet-setup.jpeg)
+![Network Setuo](docs/Initial Interface.jpeg)
