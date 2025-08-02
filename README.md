@@ -25,8 +25,3 @@ This is my home lab project using an old HP laptop running Ubuntu Server 24.04 L
 | SSH timeout when lid closes | Edited `logind.conf` to `HandleLidSwitch=ignore` |
 | Dynamic IP resets | Set static DHCP reservation on router |
 | SSH not on port 22 | Reconfigured `sshd_config` |
-
-## 📸 Screenshots
-
-![Installation](docs/installation.jpeg)
-![Network Setuo](docs/Initial Interface.jpeg)
